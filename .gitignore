@@ -1,15 +1,56 @@
+# IntelliJ / Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea
-/.kotlin
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+.kotlin/
 
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Local configuration
+local.properties
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Mac
 .DS_Store
 
-/app/build
+# Windows
+Thumbs.db
 
+# Logs
+*.log
+
+# Keystore files
+*.jks
+*.keystore
+
+# Android generated
+generated/
+
+# Firebase
 google-services.json
+
+# Temporary files
+tmp/
+temp/
+
+# Kotlin
+.kotlin_metadata
+
+# Navigation Safe Args
+.navigation/
+
+# VS Code
+.vscode/
+
+# NDK
+obj/
+
+# APKs
+*.apk
+*.aab
