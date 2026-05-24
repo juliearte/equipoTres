@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Pico Botella</string>
+    <string name="counter_text">3</string>
+    <string name="press_me">Presióname</string>
+    <string name="bottle_image">Botella del juego</string>
+    <string name="spin_button">Botón girar botella</string>
+    <string name="app_title">Pico Botella</string>
+    <string name="star_button">Calificar app</string>
+    <string name="audio_button">Control audio</string>
+    <string name="info_button">Información</string>
+    <string name="retos_button">Retos</string>
+    <string name="share_button">Compartir app</string>
 </resources>
