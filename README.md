@@ -1,4 +1,3 @@
-````md
 # 📱 Pico Botella
 
 Proyecto desarrollado para la materia Desarrollo de Aplicaciones Móviles.
