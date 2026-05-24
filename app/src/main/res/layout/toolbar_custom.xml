@@ -19,48 +19,68 @@
 
         <ImageButton
             android:id="@+id/btnStar"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:src="@drawable/ic_star"
-            android:scaleType="centerInside"/>
+            android:scaleType="centerInside"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/star_button"/>
 
         <ImageButton
             android:id="@+id/btnAudio"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:src="@drawable/ic_sound_on"
-            android:scaleType="centerInside"/>
+            android:scaleType="centerInside"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/audio_button"/>
 
         <ImageButton
             android:id="@+id/btnInfo"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:src="@drawable/ic_info"
-            android:scaleType="centerInside"/>
+            android:scaleType="centerInside"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/info_button"/>
 
         <ImageButton
             android:id="@+id/btnRetos"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:src="@drawable/ic_retos"
-            android:scaleType="centerInside"/>
+            android:scaleType="centerInside"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/retos_button"/>
 
         <ImageButton
             android:id="@+id/btnShare"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:src="@drawable/ic_share"
-            android:scaleType="centerInside"/>
+            android:scaleType="centerInside"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/share_button"/>
 
     </LinearLayout>
 
